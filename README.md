@@ -56,8 +56,8 @@ Using bash on Ubuntu. Don't do this as `root`, otherwise chromium won't start la
    (.venv) $ sudo apt install libasound2 libatk-bridge2.0-0 libatk1.0-0 libatspi2.0-0 libcairo2 libcups2 libdbus-1-3 libdrm2 libexpat1 libgbm1 libgcc1 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0
    ```
 
-6. Run the script while pointing to the chromium binary:
+6. Run the script while pointing to the chromium binary and providing the desired VIN for your vehicle:
 
    ```
-   (.venv) $ python main.py --chromium-binary 982481/chrome-linux/chrome
+   (.venv) $ python main.py --chromium-binary 982481/chrome-linux/chrome --vin <your vin here>
    ```
